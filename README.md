@@ -97,3 +97,20 @@ DELETE /api/rooms/:id - Delete a room (House Owners only).
 /**Bookings**/
 POST /api/bookings - Create a new booking.
 GET /api/bookings/:id - Get details of a specific booking (for logged-in user).
+## OUTPUT
+/** Home,Registartion,Login**/
+![Screenshot 2024-07-13 214348](https://github.com/user-attachments/assets/65123cdc-a65a-472a-b854-6ec637dc1654)
+![Screenshot 2024-07-13 215109](https://github.com/user-attachments/assets/f4795cfd-d7b5-465a-9b5f-1dcd35e7e420)
+![Screenshot 2024-07-13 215101](https://github.com/user-attachments/assets/6b577a6e-bf72-4796-ab17-832cafa0c38e)
+/**Owner DashBoard**/
+![Screenshot 2024-07-13 215001](https://github.com/user-attachments/assets/c9df1038-8db2-4412-a229-2fca211e7f2e)
+
+/**customer DashBoard**/
+![Screenshot 2024-07-13 220609](https://github.com/user-attachments/assets/f8df6bb8-6840-4b11-9d6b-0b5e43519bb7)
+![Screenshot 2024-07-13 220601](https://github.com/user-attachments/assets/b0672a13-cf88-46d4-b6f3-cdedf9f90c0e)
+![Screenshot 2024-07-13 220427](https://github.com/user-attachments/assets/c8561525-e4a7-406a-8d89-2f3374fbe1a9)
+
+/Booking From**/
+![Screenshot 2024-07-13 220631](https://github.com/user-attachments/assets/65a129f2-401b-4267-a374-fb64d22166fd)
+
+
