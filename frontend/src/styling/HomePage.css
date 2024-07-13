@@ -1,0 +1,83 @@
+/* HomePage.css */
+
+/* General styling for the home page */
+.home-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.app-name {
+  font-size: 36px; 
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.nav-links .person-icon {
+  margin-right: 5px;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro h1 {
+  margin-bottom: 10px;
+}
+
+.intro p {
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.explore-btn:hover {
+  background-color: #21a1f1;
+}
+
+.photo-gallery {
+  margin: 20px 0;
+}
+
+.photo-gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-gallery .slide {
+  position: relative;
+  height: 400px; 
+}
+
+.photo-gallery .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}

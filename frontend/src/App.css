@@ -1,0 +1,38 @@
+/* Add to your global CSS file (e.g., index.css or App.css) */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.room-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: calc(33.333% - 40px);
+  box-sizing: border-box;
+}
+

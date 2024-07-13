@@ -1,0 +1,105 @@
+/* frontend/src/styling/Details.css */
+/* Container for the room details */
+.room-details {
+  max-width: 1200px; /* Maximum width of the room details container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+}
+
+/* Header styling */
+.room-details h1 {
+  font-size: 2rem; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* Photo container styling */
+.room-photos {
+  display: flex; /* Align photos in a row */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  gap: 10px; /* Space between photos */
+  margin-bottom: 20px; /* Space below the photo container */
+}
+
+/* Styling for each photo container */
+.photo-container {
+  flex: 1 1 calc(33.333% - 20px); /* Three photos per row with space */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for each image */
+.room-photo {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for image */
+}
+
+/* Booking details section styling */
+.booking-details {
+  margin-top: 20px; /* Space above the booking details section */
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 1rem; /* Adjust font size */
+  background-color: #0056b3; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 10px; /* Space above the button */
+}
+
+button:hover {
+  background-color: #d1d8e0; /* Darker blue on hover */
+}
+
+/* Styling for the calendar container */
+.react-calendar {
+  background-color: #007bff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+}
+
+/* Styling for the calendar header */
+.react-calendar__navigation {
+  background-color: #0056b3; 
+  color: white;
+  border-radius: 8px 8px 0 0; 
+}
+
+/* Styling for the month view */
+.react-calendar__month-view {
+  background-color: #007bff; 
+}
+
+/* Styling for the tiles (days) */
+.react-calendar__tile {
+  background-color: #ffffff; 
+  color: #333; 
+}
+
+/* Styling for selected date tiles */
+.react-calendar__tile--active {
+  background-color: #0056b3; 
+  color: white;
+}
+
+/* Styling for range tiles */
+.react-calendar__tile--range {
+  background-color: #0056b3; 
+  color: white;
+}
+
+/* Styling for booked dates */
+.booked {
+  background-color: #ffcccc; 
+}
+
+/* Styling for available dates */
+.available {
+  background-color: #ccffcc; 
+}

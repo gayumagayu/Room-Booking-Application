@@ -1,0 +1,52 @@
+/* src/styling/AddRoomForm.css */
+.add-room-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.add-room-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-room-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-room-form input,
+.add-room-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.add-room-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-room-form button:disabled {
+  background-color: #6c757d;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
