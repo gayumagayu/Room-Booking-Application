@@ -110,7 +110,7 @@ GET /api/bookings/:id - Get details of a specific booking (for logged-in user).
 ![Screenshot 2024-07-13 220601](https://github.com/user-attachments/assets/b0672a13-cf88-46d4-b6f3-cdedf9f90c0e)
 ![Screenshot 2024-07-13 220427](https://github.com/user-attachments/assets/c8561525-e4a7-406a-8d89-2f3374fbe1a9)
 
-/Booking From**/
+/**Booking Form**/
 ![Screenshot 2024-07-13 220631](https://github.com/user-attachments/assets/65a129f2-401b-4267-a374-fb64d22166fd)
 
 
